@@ -1,0 +1,91 @@
+*{   
+ font-family: "Bitcount Single", system-ui;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ background-color: rgb(230, 228, 228);
+}
+
+.topo{
+    width: 350px;
+    margin: 0;
+    
+}
+
+.topo img{
+    width: 150px;
+    height: 150px;
+    margin: 30px 90px;
+    border-radius: 500px;
+    box-shadow:9px 9px rgb(255, 101, 101);
+}
+.topo h1{
+    font-weight: 1000;
+    font-size: 20px;
+    margin: 0 50px;
+}
+.topo p{
+    text-align: center;
+    font-weight: bold;
+     width: 350px;
+     font-size: 15px;
+}
+.produtos{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.produtos a{
+    text-decoration: none;
+    color: black;
+}
+.produtos a .produto{
+    height: 70px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 9px 9px;
+}
+.produtos .produto img{
+    height: 50px;
+    width: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.produtos .produto h2{
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+footer .tiktok{
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+footer .instagram{
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+footer a{
+    color: none;
+}
+footer img{
+    width: 50px;
+}
+footer .instagram img{
+    width: 40px;
+    height: 40px;
+}
